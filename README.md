@@ -21,6 +21,9 @@ You can download the dataset and backbones from either of the following links.
 - https://pan.baidu.com/s/1s1z_2lnqnRdRbtE_WfzOzQ?pwd=ahd7
 - www.com
 
+How to run
+----------
+
 ```bash
 python main.py
 ```
