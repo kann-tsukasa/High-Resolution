@@ -1,4 +1,4 @@
-# High Resolution Image Classification with Rich Text Information Based on Graph Convolution Neural Network
+High Resolution Image Classification with Rich Text Information Based on Graph Convolution Neural Network
 ============
 
 - Paper link: www.xxx.com
@@ -13,10 +13,13 @@ Dependencies
 - argparse
 - tqdm
 
-How to run
+Downloads
 ----------
 
-An experiment on the GIN in default settings can be run with
+You can download the dataset and backbones from either of the following links.
+
+- https://pan.baidu.com/s/1s1z_2lnqnRdRbtE_WfzOzQ?pwd=ahd7
+- www.com
 
 ```bash
 python main.py
