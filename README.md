@@ -80,7 +80,7 @@ python nbcm.py
 
 #### Graph-based Classification Model
 
-Construct graphs for GBCM.
+Use STR model to generate the high dimension features for each node and construct graphs for GBCM.
 
 
 ```bash
