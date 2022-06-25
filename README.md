@@ -32,18 +32,18 @@ If you want to run the CNN baselines, you should run the python file in ./data/ 
 python generate_cnn_dataset.py
 ```
 
-Then, you can run the following codes to train ResNet18, GoogLeNet, and VGG19.
+Then, you can run the following codes to train ResNet18, GoogLeNet, and VGG19. Set --show 1 to show the progress bar. If you want to use the nohup command, you should set --show 0. 
 
 ```bash
-python baseline_ResNet.py
+python baseline_ResNet.py --show 1
 ```
 
 ```bash
-python baseline_GoogLeNet.py
+python baseline_GoogLeNet.py --show 1
 ```
 
 ```bash
-python baseline_VGG.py
+python baseline_VGG.py --show 1
 ```
 
 ### GNN-based Models
@@ -64,13 +64,32 @@ python buildbfsgraph.py
 
 #### Node-based Classification Model
 
+Construct the graph for NBCM.
 
+```bash
+python constructgraph.py
+```
 
+Train NBCM. Set --pretrain 1 to load the pre-trained weights for the ResNet18 in NBCM. 
 
+```bash
+python nbcm.py
+```
 
 #### Graph-based Classification Model
 
+Construct graphs for GBCM.
 
+
+```bash
+python constructgraphs.py
+```
+
+Train GBCM. If you want to use the nohup command, you should set --show 0. 
+
+```bash
+python .py --show 1
+```
 
 
 
