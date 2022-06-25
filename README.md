@@ -26,7 +26,7 @@ How to run
 
 ### Baseline Models
 
-If you want to run the CNN baselines, you should run the file in ./data/ to construct the data for CNNs.
+If you want to run the CNN baselines, you should run the python file in ./data/ to construct the data for CNNs.
 
 ```bash
 python generate_cnn_dataset.py
@@ -48,9 +48,23 @@ python baseline_VGG.py
 
 ### GNN-based Models
 
+To run the NBCM and GBCM, we should generate the graph data from the original image data. Of course, we have already provided off-the-shelf graph
+data in ./data/graph/ and ./data/graphs, so that this step could be skipped.  
+
+First, use CRAFT to generate the sub-images.
+
+```bash
+python generatesubimgs.py
+```
+Then, construct the BFS-based graphs for the sub-images.
+
+```bash
+python buildbfsgraph.py
+```
+
 #### Node-based Classification Model
 
-First, you should gen
+
 
 
 
