@@ -21,7 +21,10 @@ Downloads
 
 First, you should download the dataset and backbones from either of the links above. Put the two folders into the root path. Unzip images.zip into ./data/ and unzip graph.bin.zip into ./data/graph. The structure of the folders is shown below.
 
-
+|-- High-Resolution-Image-Classification-with-Rich-Text-Information
+    |-- backbone
+    |-- modules
+    |-- data
 
 How to run
 ----------
