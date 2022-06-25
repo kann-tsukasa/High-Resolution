@@ -70,7 +70,7 @@ def generateSubimgs(args_dict, img_path=None, root_path=None, save_path=None):
     elif root_path:
         subimg_center_point_dict = {}
         img_paths = os.listdir(root_path)
-        for img_path in tqdm(img_pathsLBP):
+        for img_path in tqdm(img_paths):
             img_name = img_path.split('.')[0]
             img_path = os.path.join(root_path, img_path)
             try:
