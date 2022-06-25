@@ -16,13 +16,18 @@ Dependencies
 Downloads
 ----------
 
-You can download the dataset and backbones from either of the following links.
-
 - https://pan.baidu.com/s/1s1z_2lnqnRdRbtE_WfzOzQ?pwd=ahd7
 - https://drive.google.com/drive/folders/1UmNaKLqPIQi2rThbTkFOFTtyUeVaCdty?usp=sharing
 
+First, you should download the dataset and backbones from either of the links above. Put the two folders into the root path. Unzip images.zip into ./data/ and unzip graph.bin.zip into ./data/graph. The structure of the folders is shown below.
+
+
+
 How to run
 ----------
+
+
+
 
 ```bash
 python main.py
