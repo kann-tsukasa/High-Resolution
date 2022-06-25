@@ -24,7 +24,7 @@ First, you should download the dataset and backbones from either of the links ab
 How to run
 ----------
 
-- Baseline Models
+### Baseline Models
 
 If you want to run the CNN baselines, you should run the file in ./data/ to construct the data for CNNs.
 
@@ -46,12 +46,15 @@ python baseline_GoogLeNet.py
 python baseline_VGG.py
 ```
 
-- Node-based Classification Model
+### GNN-based Models
+
+#### Node-based Classification Model
+
+First, you should gen
 
 
 
-
-- Graph-based Classification Model
+#### Graph-based Classification Model
 
 
 
