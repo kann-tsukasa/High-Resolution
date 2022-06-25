@@ -24,11 +24,36 @@ First, you should download the dataset and backbones from either of the links ab
 How to run
 ----------
 
+- Run the baselines
+
 If you want to run the CNN baselines, you should run the file in ./data/ to construct the data for CNNs.
 
 ```bash
 python generate_cnn_dataset.py
 ```
+
+Then, you can run the following codes to train ResNet18, GoogLeNet, and VGG19.
+
+```bash
+python baseline_ResNet.py
+```
+
+```bash
+python baseline_GoogLeNet.py
+```
+
+```bash
+python baseline_VGG.py
+```
+
+- Run NBCM
+
+
+
+
+- Run GBCM
+
+
 
 
 
