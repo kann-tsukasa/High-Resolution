@@ -4,7 +4,7 @@ High Resolution Image Classification with Rich Text Information Based on Graph C
 - Paper link: www.xxx.com
 - Author's code repo: www.xxx.com
 
-Dependencies
+1.Dependencies
 ------------
 - PyTorch 1.1.0+
 - tensorboard
@@ -13,7 +13,7 @@ Dependencies
 - argparse
 - tqdm
 
-Downloads
+2.Downloads
 ----------
 
 ### Links
@@ -23,10 +23,10 @@ Downloads
 
 First, you should download the dataset and backbones from either of the links above. Put the two folders into the root path. Unzip images.zip into ./data/ and unzip graph.bin.zip into ./data/graph.
 
-How to run
+3.How to run
 ----------
 
-### Baseline Models
+### 3.1 Baseline Models
 
 If you want to run the CNN baselines, you should run the python file in ./data/ to construct the data for CNNs.
 
@@ -48,7 +48,7 @@ python baseline_GoogLeNet.py --show 1
 python baseline_VGG.py --show 1
 ```
 
-### GNN-based Models
+### 3.2 GNN-based Models
 
 To run the NBCM and GBCM, we should generate the graph data from the original image data. Of course, we have already provided off-the-shelf graph
 data in ./data/graph/ and ./data/graphs, so that this step could be skipped.  
@@ -64,7 +64,7 @@ Then, construct the BFS-based graphs for the sub-images.
 python buildbfsgraph.py
 ```
 
-#### Node-based Classification Model
+#### 3.2.1 Node-based Classification Model
 
 Construct the graph for NBCM.
 
@@ -78,7 +78,7 @@ Train NBCM. Set --pretrain 1 to load the pre-trained weights for the ResNet18 in
 python nbcm.py
 ```
 
-#### Graph-based Classification Model
+#### 3.2.2 Graph-based Classification Model
 
 Use STR model to generate the high dimension features for each node and construct graphs for GBCM.
 
@@ -92,10 +92,3 @@ Train GBCM. If you want to use the nohup command, you should set --show 0.
 ```bash
 python .py --show 1
 ```
-
-
-
-
-
-
-
