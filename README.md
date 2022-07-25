@@ -1,8 +1,8 @@
 High Resolution Image Classification with Rich Text Information Based on Graph Convolution Neural Network
 ============
 
-- Paper link: www.not_available.com
-- Author's code repo: www.not_available.com
+- Paper link: not available
+- Author's code repo: not available
 
 1.Dependencies
 ------------
