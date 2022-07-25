@@ -90,5 +90,5 @@ python constructgraphs.py
 Train GBCM. If you want to use the nohup command, you should set --show 0. 
 
 ```bash
-python .py --show 1
+python nbcm.py --show 1
 ```
